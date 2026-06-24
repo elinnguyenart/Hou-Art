@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Hou Fine Art</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+    <header>
+        <h1 class="logo">Hou</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="classes.html">Classes & Workshops</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <h2>Contact Directory</h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 4rem; margin-top: 2rem;">
+            
+            <!-- Direct Contact Information -->
+            <div style="flex: 1; min-width: 300px;">
+                <h3>Details</h3>
+                <p>For inquiries regarding original works, portrait commissions, or upcoming workshops, please reach out directly or use the contact form.</p>
+                
+                <div style="margin-top: 2rem;">
+                    <p><strong>Email:</strong><br>
+                    <a href="mailto:studio@example.com" style="color: var(--accent-color); text-decoration: none;">studio@example.com</a></p>
+                    
+                    <p><strong>Location:</strong><br>
+                    Florence, Tuscany<br>
+                    Italy</p>
+                    
+                    <p style="font-size: 0.9rem; color: #666; font-style: italic; margin-top: 1.5rem;">
+                        In-person studio visits and private viewings are available by appointment only.
+                    </p>
+                </div>
+            </div>
+
+
+            <!-- Contact Form -->
+            <div style="flex: 1.5; min-width: 300px;">
+                <form action="#" method="POST" style="display: flex; flex-direction: column; gap: 1.5rem;">
+    
+    <!-- Subject Dropdown -->
+    <div>
+        <label for="inquiry-type" style="display: block; margin-bottom: 0.5rem; font-family: 'Playfair Display', serif;">Nature of Inquiry</label>
+        <select id="inquiry-type" name="inquiry-type" required style="width: 100%; padding: 0.8rem; border: 1px solid var(--greenish); background-color: var(--cream); font-family: inherit; font-size: 1rem;">
+            <option value="" disabled selected>Please select an option...</option>
+            <option value="available-work">Pricing & Availability</option>
+            <option value="commission">Commission Inquiry</option>
+            <option value="workshop">Workshop & Mentorship</option>
+            <option value="other">General Inquiry</option>
+        </select>
+    </div>
+
+    <!-- Name Field -->
+    <div>
+        <label for="name" style="display: block; margin-bottom: 0.5rem; font-family: 'Playfair Display', serif;">Name</label>
+        <input type="text" id="name" name="name" required style="width: 100%; padding: 0.8rem; border: 1px solid var(--greenish); background-color: transparent; font-family: inherit; font-size: 1rem; box-sizing: border-box;">
+    </div>
+    
+    <!-- Email Field -->
+    <div>
+        <label for="email" style="display: block; margin-bottom: 0.5rem; font-family: 'Playfair Display', serif;">Email Address</label>
+        <input type="email" id="email" name="email" required style="width: 100%; padding: 0.8rem; border: 1px solid var(--greenish); background-color: transparent; font-family: inherit; font-size: 1rem; box-sizing: border-box;">
+    </div>
+    
+    <!-- Message Field -->
+    <div>
+        <label for="message" style="display: block; margin-bottom: 0.5rem; font-family: 'Playfair Display', serif;">Message</label>
+        <textarea id="message" name="message" rows="6" required style="width: 100%; padding: 0.8rem; border: 1px solid var(--greenish); background-color: transparent; font-family: inherit; font-size: 1rem; resize: vertical; box-sizing: border-box;"></textarea>
+    </div>
+    
+    <button type="submit" style="padding: 1rem 2rem; background-color: var(--burgundy); color: var(--cream); border: none; font-family: inherit; text-transform: uppercase; letter-spacing: 1px; cursor: pointer; transition: opacity 0.3s; margin-top: 1rem; align-self: flex-start;">
+        Send Inquiry
+    </button>
+</form>
+
+
+        </div>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2026 Hou Fine Art. All original works reserved.</p>
+    </footer>
+
+
+</body>
+</html>
